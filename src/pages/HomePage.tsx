@@ -51,10 +51,10 @@ export default function HomePage({ success }: { success: boolean }) {
           <MdLocalMovies />
           Movie App
         </h1>
-        <div className="flex w-full justify-center md:justify-between  p-4 items-center flex-wrap gap-4">
+        <div className="flex w-full justify-center md:justify-between  p-4 items-center md:flex-row flex-col gap-4 md:gap-0">
           <button
             onClick={() => navigate("/create")}
-            className="btn btn-info ml-8"
+            className="btn btn-info md:ml-8"
           >
             <IoMdAddCircle /> New Movie
           </button>

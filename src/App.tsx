@@ -44,7 +44,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="h-screen flex flex-col justify-between bg-secondary-content ">
+    <div className="min-h-screen flex flex-col justify-between bg-secondary-content ">
       <main className="my-auto rounded-lg ">
         <MovieContext.Provider value={{ movies: movies, setMovies: setMovies }}>
           <DirectorContext.Provider value={directors}>

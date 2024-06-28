@@ -86,7 +86,7 @@ export default function MovieCard({
   return (
     <div className="flex flex-col justify-center gap-4 bg-neutral-content text-secondary-content p-4 rounded-lg items-center w-[300px] h-[550px]">
       {isEditing ? (
-        <div className="text-white">
+        <div className="text-white flex flex-col justify-center gap-4">
           <input
             type="text"
             className="input input-bordered"

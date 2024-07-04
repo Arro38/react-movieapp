@@ -2,8 +2,8 @@ import { Movie } from "./../types/Movie";
 import { createContext } from "react";
 import { Director } from "../types/Director";
 
-export const API_URL = "https://127.0.0.1:8000/api/";
-// export const API_URL = "https://symfo-movieapp.formaterz.fr/api/";
+// export const API_URL = "https://127.0.0.1:8000/api/";
+export const API_URL = "https://symfo-movieapp.formaterz.fr/api/";
 
 export const DirectorContext = createContext<Director[]>([]);
 
